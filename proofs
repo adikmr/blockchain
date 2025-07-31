@@ -1,0 +1,189 @@
+./node.sh
+=== Waiting for node1 RPC to be ready ===
+=== Waiting for node2 RPC to be ready ===
+=== Creating wallets on both nodes ===
+error code: -4
+error message:
+Wallet file verification failed. Failed to create database path '/root/.bitcoin/regtest/wallets/wallet1'. Database already exists.
+{
+  "name": "wallet2"
+}
+=== Getting new addresses ===
+=== Connecting nodes ===
+Node1 Address: bcrt1qtq0j7kmupnlmaee9cjpxuhgtfy072ar0he9hdv
+Node2 Address: bcrt1qsntcmlja9agyx0ewrpznv8aj49282pw68vungh
+
+
+-----------------------------------------------
+./mine.sh 
+[
+  "20715768ccd52569a9f35c3c4bb19539737736295265ff9ddf72e504436997af",
+  "2d6d39fd6c37787a4a09fc5d486a862da5203d5c9d982a4dd5bb83e2f53777a7",
+  "0b183360cfa68639b3b169b0553c5e1bd54b797711f4734ec412664e59a86ae0",
+  "6130f51f3dbdf765d232a9840fac25c475951ad4a567f8d7229eb405ce5decbf",
+  "68ef2c53c025c4a6647bb3a6e63c4b074f33508ac808482c07e59034ca7e53f7",
+  "7cea989c6e01084ec17677e18763fc8d5ad4478c5d4f6d10e896b0598f63bb3b",
+  "116b396c66e16f857c2d725970f146f0807cfa4a36520154078db105b2d3ebc7",
+  "5cbed8a7930bc3ecee7511ffaae677753b21c8a8006dc201a0f26b07682037ef",
+  "3e0e1b1f9ae0babe1da76bbf3fe4cb384e008a07e3b355c66a7169f9cec2d31b",
+  "6c48d1a565add6a597a2205ad497e9103629499b2d14fc16ee112f324da81c53",
+  "1fde094ab809b38b3bee5a14081bf5f0ad25605897d794d6d5b2f4475b66166f",
+  "4251704064073a942a02e91fbb18de51f8b58eac2164fd1f7360437dbe3f824b",
+  "1f75af7c16b1faa1eaf293a3c0e16fece36e6930a44b0b19fd538da4026eeabb",
+  "7499a867013c9e261624e57f1fb1bd02c51200e163977da2ae38e6ce68332217",
+  "684696e0ce55cbf4f480f8ceed715ddbb0e55b748cb53813c319eb6e0efffc53",
+  "6f7f25d41784256cc13d13269f9d81ca2a00966177326c3c3247bc01994fcba3",
+  "3dff01df184039a239ecb7f2545889a1c6462314b94685d8fa240e4a9aad3c2e",
+  "00758622a8215de47cbc811526c713418d46f9c010f0a35b88a9fabb181564d8",
+  "04c97202f10bc86efa8bdb476566d652e165a8d851ecf9a9f377cbcb5a1d12d5",
+  "1836bcc834a7f5cd97dd1a34e7a6ccaf8fe0396cea0ed1abde26a2d476cb96e4",
+  "0ab393c7ba4d080305ef335586d2f8f555a479752c70f9a6eba74c235ade9cbc",
+  "3e03e1aef622af8e8e2774d5278edae9b61041a6a6127299888aa75a5f670c30",
+  "690ae0c55ae2cab378844533283f3e22545917cd8d6331e2cc72d6248cdcd4bf",
+  "25c0570dcf552fb785221460c28003dcb27a5dc1b72f761239854f9177966177",
+  "251682aa06e5e14705fd3b62343c6052085e65a7bff14f2702d6ff22145d5889",
+  "01344a7febed5980591bd7889f356918ad77df147e886f72f0a13a08170ee43f",
+  "24b484123dc322e9aa852691178853163f32c0c94562c3bec788dc532067cf3d",
+  "2459ac17aae867df3c7c8d80f7871fe92b57ac561818bdb3d52c5408d80d442c",
+  "753d128c087927c43f4d8111f75b78ae83e6d8f93ade70fdb2236fb555339d89",
+  "2bd79631ef463d07495e048f426d5db73c90764860763330a36cb8bb4f746f28",
+  "2c2b9e2ac64f7681dc5b61f9524c9386e8c7a1e7917f58ef1de5a84b51a36440",
+  "734a692e13b69c71b018eeef29d771219ecf128306006b029cc40e94fdfffcdb",
+  "4011f8cca1e50b241d80e3753f40bfef4887907a23971e4ecf356b3a8aa12a0e",
+  "324713ccbce590c54feb5e21aa4ecb218b868f607eed9fa6af74d21654043e45",
+  "53fc6a61092e6e43f5340d7482e1e62c14bf257b521a1683682b73b9077759a7",
+  "3ab3fb7852e6377686a8c30f3e6a137f3995431ef2f58d21aed7cf330e65ea6b",
+  "2e4359230aea5697db62b39a97f9dd84f437e03e92a31a2337b7731a1f291032",
+  "390de4d76c320653e403589885f7328f72932370bb88dc7357fb61e6dbe80cd8",
+  "0364e107321df2f14bb18928003755cd93883ff03e349f28946da98fa9b5913e",
+  "1bae00d20896b3bc21165a82a0911a3c52f6d3680340f5206ff6696675c0bbf8",
+  "1566f1fa85a1697fa1efedcc88c9c71828c220f7565711d5882aee1bc4ac7c5e",
+  "146a51d120819f80cb996c419dc2b46e002657357001b4ee53195810e18edfef",
+  "22ad5354f861833cd701a876e5c68ee0beecef69adc08c9ea1b1c4ea3e66e967",
+  "6eaf28c8bb08cfb52e76665023c995c8cc93983243e5f58096748df965c36ed5",
+  "6b681ec4875d7b21926d10f7646fc7bafc761e9622e2a76388c0c96e12c0b6ec",
+  "05e27cdb2ad42d027773fb4c2a200c3b7d1c33199a3b27ca6b41ef64cf25d8a6",
+  "15e5d6fdbb8a090b90c2e6ee6e915517df91579ea1509706e00bd476535b989e",
+  "698f419046a0257d09daa7bc396f6c2bed3ce69972f56a2303a229a62170b0b4",
+  "095bac77444db39d67ea7f2ee12c5c478562d9f93b9acdd7ab72a46138d23328",
+  "287e5e4e8a7ddc935699e11b6b697982848147d35b6652bfb12d35e9ea854765",
+  "1dcdeb65174acbf141a2703136e73ec61ca1bd8198ebe034ddaa02c731aaf26a",
+  "614e139131e4e6b28cea187df8e0895e31a3ca00c5be505d748514ba20c7c158",
+  "1bfcab4042d1175fd217eba5efdacc521386c4a9f0b0ad850c252383511e8c2d",
+  "06c00b725e8f0cd4fe6d8199ef691b68b64e9a50ce6e076ee8d911f9b18ae5ea",
+  "49988c1cadcfade9a1a8f962cb6201d4f87f1966ec6c5dc5a2f34363e0b4a493",
+  "32047eae94f2d5c57d82f50b88a084a2f7584214ef5db4c7e190ec33cfb2f950",
+  "4f50a06b69166512e89fd1535732382855ca5f55e19ebf9af5b3ce97410aec63",
+  "041c4c8ae60f090c98459b2bb5bfb2c33b68a8ae9749a6ac8a4ef202021037dd",
+  "44aeb33ea26cc44c576d82011fa3c5c9324ff57723b62162accab46f3897ad30",
+  "24deafa2d47b8a0e620e9ac2c8f2e1e1cde0c88e5626c05be9d103419a74335b",
+  "7cfd1ab00ac764118a1d09b97689c517b4d11d1a2d1ed733bc086f8bfc266ea6",
+  "41d23965382fa8d1363c84a7897c3801eb5bc28d53e3eed41d16bffe8cd91b3d",
+  "1daab375828302c3cdbd6120388b83cc47149e5e26d36c71ce81f2cdf29aa60c",
+  "401b7e7e1d59a6dae8e4ff0aa84a89347c14be5c3a8cf1e7b418c99de531e3a1",
+  "290f9e1505077916f4056ce0b04850f63383c9d0c3b32c4c7ee79368fafb0aa9",
+  "72dc2c309a310728999c659a08ded04d3726f57a5e6eec18fe2b1bceddfa756c",
+  "75f7b36db34d64b93213c5240152118ed93134ef16be4dcca55aa886dcb99b03",
+  "0989e2b8b8ee75dbe5be16fe99175d1d863a1562007aeeea98d0d801254b0005",
+  "71c3f265c6ccc54f22c942a7f4b9b27522bb221b7118afbf9281f62e8da652b2",
+  "656d4171777785c2fc62ab7d73aec985dd6e43190246a2aef9c5d70f835fc378",
+  "44609074bb588d9f7449db12a50f58ef4ed13f750bedc8193cf554d97dbbcd41",
+  "012ef2b5589abb3708dc2788e60716535db7232348150c9414fc10f9092e28d7",
+  "4b27aa45b13d8b1bd476e9dcaaa6dc5b92591ef935e3cac451c27bd762d7cbd5",
+  "232cf2c7f38cc5ed3042eb5c83bdd783ee98ce957b70b619e27186f4867ebf5b",
+  "7b0ff4395115ade408865663b3a769e56ebc17ff0d1bff7a0ce3bce69ce861f7",
+  "33641c3f29f680bd86e5af5cf3e88e49d2b5c34a666ae79b59bf88c38a62a44a",
+  "4ab75214a899262603363ff8d91905f220aede3497e4f72d69413207c7537ea0",
+  "1b4952fe10cc1f9e914b300a2e6ffaa2ff21f82dcbc7c504744ff3d9b3497e01",
+  "252cc5513adab4a64db351d09e73cf4a9f50d3410deb95f6910652c29530a206",
+  "5a35b88f67a4fe189d1908086275c9754f4b56b13c415beaabd2b974a7bb7c02",
+  "5747e33b053628d83c45cbbd1140503ff475dd5fd319ba54ad57b837ea466ad0",
+  "0a56dcec7265a492570b90d2570d8b48370d11993b5e19f5e32100d914f377fb",
+  "1c9d6973b395f2f03fd9de988609b909a8713ef8451d9016c12e6ea7d42d8f3a",
+  "6dcab97f3f3c9c4a4a2094be86c2f846507b8f1b9296d5c82b1be24f63c189f0",
+  "53490972cdc24f18d31193e6b9308add772ea0e2a06510a4e6594d2d6c360fc8",
+  "47deb879dc019cae5df1e992b9cd26d0f4e63edad0cdd49264d95cea83c3a5ca",
+  "4e854dbcbf7931d762f89d44d23fefceea47e64a0c5824d120881f12e2a37b29",
+  "03a50097f5d353dc8064bd9778f181d88e3e5f98cfde60d0859ac6b1012eb8d6",
+  "6c66ab9c534eb5bfad2f35275c34e5afa145c485d4389fd73aa509975dd313c7",
+  "7e7f6d0d8774d48849787a1a7b34c69696c4e0b060b3954f70e2731e836c50d5",
+  "7309d08b167bac905aaa78fde343e19773f3c52704ac3182bb503d383b7880c9",
+  "721cb4625f1c226cefe61393fd2f8da6cdd58120cf95d747f746ddb0f3315cde",
+  "7b394ec797e5af96d1d44d993421d3c8dfe7769f92846dd4a7e8cb99417a3159",
+  "6221be8b1e6892b6b75d44ffe5170cc60c1cffed27b4e7e30dc447ee5c54218f",
+  "3f24f9ef5c10d8ece504c226faa7fd6773938c672e7c9e2e16c3f04267e8e026",
+  "2321b7d46c73cfdeeadc2ea1ba8d9a3f82c48bc7f77dfd79d6331d5a02eeee88",
+  "68c201d895d56fd5acd06306753a7d423b67eb2155037454a4c22286aef97265",
+  "41f858a3372a0011f2c37b3cf8f15d19ad8c76ca190916fb5421fed94539b1e3",
+  "7597f6d68b04df7b7552faf9c51d8d65cc9feab2cefd7971c3e9bca2783e1fe7",
+  "0f2a78651a19b089335150c1bacd422463747e0d9025737bb40dad4d615ed0df",
+  "49904c3df6ed255a5eea73636e5a9ebee1ad3b24bd063f02250dcb435dadc3af"
+]
+
+---------------------------------------------------------------
+adityakumar@Adityas-MacBook-Air blockchain % 
+
+./transact.sh 
+error: timeout on transient error: Could not connect to the server 127.0.0.1:18443
+
+Make sure the bitcoind server is running and that you are connecting to the correct RPC port.
+error code: -1
+error message:
+sendtoaddress "address" amount ( "comment" "comment_to" subtractfeefromamount replaceable conf_target "estimate_mode" avoid_reuse fee_rate verbose )
+
+Send an amount to a given address.
+Requires wallet passphrase to be set with walletpassphrase call if wallet is encrypted.
+
+Arguments:
+1. address                  (string, required) The bitcoin address to send to.
+2. amount                   (numeric or string, required) The amount in BTC to send. eg 0.1
+3. comment                  (string, optional) A comment used to store what the transaction is for.
+                            This is not part of the transaction, just kept in your wallet.
+4. comment_to               (string, optional) A comment to store the name of the person or organization
+                            to which you're sending the transaction. This is not part of the 
+                            transaction, just kept in your wallet.
+5. subtractfeefromamount    (boolean, optional, default=false) The fee will be deducted from the amount being sent.
+                            The recipient will receive less bitcoins than you enter in the amount field.
+6. replaceable              (boolean, optional, default=wallet default) Signal that this transaction can be replaced by a transaction (BIP 125)
+7. conf_target              (numeric, optional, default=wallet -txconfirmtarget) Confirmation target in blocks
+8. estimate_mode            (string, optional, default="unset") The fee estimate mode, must be one of (case insensitive):
+                            "unset"
+                            "economical"
+                            "conservative"
+9. avoid_reuse              (boolean, optional, default=true) (only available if avoid_reuse wallet flag is set) Avoid spending from dirty addresses; addresses are considered
+                            dirty if they have previously been used in a transaction. If true, this also activates avoidpartialspends, grouping outputs by their addresses.
+10. fee_rate                (numeric or string, optional, default=not set, fall back to wallet fee estimation) Specify a fee rate in sat/vB.
+11. verbose                 (boolean, optional, default=false) If true, return extra information about the transaction.
+
+Result (if verbose is not set or set to false):
+"hex"    (string) The transaction id.
+
+Result (if verbose is set to true):
+{                          (json object)
+  "txid" : "hex",          (string) The transaction id.
+  "fee_reason" : "str"     (string) The transaction fee reason.
+}
+
+Examples:
+
+Send 0.1 BTC
+> bitcoin-cli sendtoaddress "bc1q09vm5lfy0j5reeulh4x5752q25uqqvz34hufdl" 0.1
+
+Send 0.1 BTC with a confirmation target of 6 blocks in economical fee estimate mode using positional arguments
+> bitcoin-cli sendtoaddress "bc1q09vm5lfy0j5reeulh4x5752q25uqqvz34hufdl" 0.1 "donation" "sean's outpost" false true 6 economical
+
+Send 0.1 BTC with a fee rate of 1.1 sat/vB, subtract fee from amount, BIP125-replaceable, using positional arguments
+> bitcoin-cli sendtoaddress "bc1q09vm5lfy0j5reeulh4x5752q25uqqvz34hufdl" 0.1 "drinks" "room77" true true null "unset" null 1.1
+
+Send 0.2 BTC with a confirmation target of 6 blocks in economical fee estimate mode using named arguments
+> bitcoin-cli -named sendtoaddress address="bc1q09vm5lfy0j5reeulh4x5752q25uqqvz34hufdl" amount=0.2 conf_target=6 estimate_mode="economical"
+
+Send 0.5 BTC with a fee rate of 25 sat/vB using named arguments
+> bitcoin-cli -named sendtoaddress address="bc1q09vm5lfy0j5reeulh4x5752q25uqqvz34hufdl" amount=0.5 fee_rate=25
+> bitcoin-cli -named sendtoaddress address="bc1q09vm5lfy0j5reeulh4x5752q25uqqvz34hufdl" amount=0.5 fee_rate=25 subtractfeefromamount=false replaceable=true avoid_reuse=true comment="2 pizzas" comment_to="jeremy" verbose=true
+
+[
+  "1cdd27286cead14ef11156a51d6a740ec07f51e84eb36e3a5bd818cfefd6f9cb"
+]
+Transaction sent and confirmed!
+adityakumar@Adityas-MacBook-Air blockchain % 
