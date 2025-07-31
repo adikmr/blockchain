@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  node1:
+    build: .
+    image: bitcoin:local
+    container_name: node1
+    command: >
+      bitcoind -regtest -printtoconsole
+      -rpcallowip=0.0.0.0/0
+      -rpcbind=0.0.0.0
+      -rpcuser=user -rpcpassword=pass
+    ports:
+      - "18443:18443"
+    volumes:
+      - ./data/node1:/home/bitcoin/.bitcoin
+
+  node2:
+    build: .
+    image: bitcoin:local
+    container_name: node2
+    command: >
+      bitcoind -regtest -printtoconsole
+      -rpcallowip=0.0.0.0/0
+      -rpcbind=0.0.0.0
+      -rpcuser=user -rpcpassword=pass
+      -port=18445 -rpcport=18444
+    ports:
+      - "18444:18444"
+    volumes:
+      - ./data/node2:/home/bitcoin/.bitcoin
