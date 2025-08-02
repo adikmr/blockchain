@@ -1,0 +1,35 @@
+name: Bitcoin Regtest workflow
+
+on:
+  push:
+    branches: [ any ]
+  pull_request:
+
+jobs:
+  regtest:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Docker Build 
+      uses: docker/setup-buildx-action@v3
+
+    - name: Build Bitcoin Docker image from Dockerfile
+      run: docker build -t bitcoin:local .
+
+    - name: Start Bitcoin nodes from the docker compose file
+      run: docker compose up -d
+
+    - name: Wait for bitcoind to start - waiting for node to intialize
+      run: sleep 10
+
+    - name: Run node setup script - address setup 
+      run: ./node.sh
+
+    - name: Mine blocks - mine block for wallet
+      run: ./mine.sh
+
+    - name: Perform transaction - send transaction from node 1 to node 2
+      run: ./transact.sh
